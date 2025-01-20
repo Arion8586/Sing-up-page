@@ -1,4 +1,4 @@
 # Sing-up-page
 Mini Project
 <br>
-Sing up page make
+Sing up page maker
