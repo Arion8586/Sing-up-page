@@ -7,11 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    ,<outer-box>
+    <outer-box>
         <div class="inner-box">
             <header class="signup-header">
                 <h1>Signup</h1>
+                <p>It just takes 30 second</p>
             </header>
+            <main class="singup-body">
+                <form action="#">
+                    <p>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Himanshu" required>
+                    </p>
+                    <p>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Sarsuniya123@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="password">Your New Password </label>
+                        <input type="Password" id="Password" placeholder="At least 8 characters" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Create Account">
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>Already have an Account? <a href="#">Login</a></p>
+            </footer>
         </div>
     </outer-box>
 </body>
